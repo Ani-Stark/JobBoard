@@ -13,6 +13,8 @@ function Registration() {
     const [flag, setFlag] = useState(false);
     const [login, setLogin] = useState(true);
     
+
+    
   
   
     function handleFormSubmit(e) {

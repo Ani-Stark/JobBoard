@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Alert } from "react-bootstrap";
 import Home from "./Home";
+import { Link } from "react-router-dom";
+import Registration from "./Registration";
+
 
 function Login() {
   const [emaillog, setEmaillog] = useState(" ");
@@ -9,6 +12,7 @@ function Login() {
   const [flag, setFlag] = useState(false);
 
   const [home, setHome] = useState(true);
+
 
   function handleLogin(e) {
     e.preventDefault();
@@ -32,6 +36,7 @@ function Login() {
   return (
     <div>
       {home ? (
+        <>
         <form onSubmit={handleLogin}>
           <h3>LogIn</h3>
           <div className="form-group">
@@ -64,6 +69,13 @@ function Login() {
             </Alert>
           )}
         </form>
+          <Link to="/">      
+            <button type="submit" className="btn btn-dark btn-lg btn-block" onClick={<Registration/>}>
+              Back To Registration
+            </button>
+          </Link>
+        </>
+
       ) : (
         <Home />
       )}
