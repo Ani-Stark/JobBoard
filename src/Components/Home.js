@@ -5,14 +5,11 @@ import { Link } from "react-router-dom";
 
 
 function Home() {
-
-  const navigate = useNavigate();
-
     
   return (
     <>
       <nav>
-        JOB LİSTS
+        JOB BOARD
       </nav>
       <div class="container">
         <div class="inner-width">

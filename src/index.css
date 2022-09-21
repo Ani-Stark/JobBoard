@@ -30,7 +30,7 @@ nav {
   align-content:center;
 }
 .container {
-  background-color:lightgray;
+  background-color:rgb(53, 55, 170);
   display:flex;
   justify-content:center;
   min-height:100vh;
@@ -43,7 +43,7 @@ nav {
   justify-content:space-between;
   align-items:center;
   padding:1rem 1.5rem;
-  background-color:white;
+  background-color:rgb(210, 209, 230);
   margin: 1rem 0;
   border-radius:10px;
   transition:250ms ease-in-out;
@@ -70,7 +70,7 @@ nav {
    background:black;
 }
 .properties {
-  color:gray;
+  color:rgb(128, 128, 128);
 }
 .type {
   margin:0 5px;

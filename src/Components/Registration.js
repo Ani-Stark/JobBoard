@@ -12,9 +12,7 @@ function Registration() {
   
     const [flag, setFlag] = useState(false);
     const [login, setLogin] = useState(true);
-    
-
-    
+  
   
   
     function handleFormSubmit(e) {
@@ -49,7 +47,7 @@ function Registration() {
             {" "}
             {login ? (
               <form onSubmit={handleFormSubmit}>
-                <h3>Register</h3>
+                <h1>Register</h1>
   
                 <div className="form-group">
                   <label>Name</label>
