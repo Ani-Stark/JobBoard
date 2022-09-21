@@ -12,8 +12,9 @@ code {
     monospace;
 }
 * {
-  margin: 20px;;
-  padding:0;
+  margin: 11px;
+  margin-bottom: 25px;
+  text-align: center;
   font-family:"Cambria";
 }
 img {
@@ -21,16 +22,18 @@ img {
   height:70px;
   border-radius:50%;
 }
-nav {
-  background:coral;
+
+.board>h1{
+  background-color:coral;
   height:15vh;
   text-align:center;
   font-size:2.5rem;
   display:grid;
   align-content:center;
 }
+
 .container {
-  background-color:rgb(53, 55, 170);
+  background-color:rgb(77, 80, 255);
   display:flex;
   justify-content:center;
   min-height:100vh;
@@ -43,7 +46,7 @@ nav {
   justify-content:space-between;
   align-items:center;
   padding:1rem 1.5rem;
-  background-color:rgb(210, 209, 230);
+  background-color:rgb(207, 209, 219);
   margin: 1rem 0;
   border-radius:10px;
   transition:250ms ease-in-out;
@@ -83,10 +86,10 @@ nav {
 }
 .jobs:nth-child(1),
 .jobs:nth-child(2){
-  border-left:4px solid blue;
+  border-left:4px solid rgb(26, 15, 175);
 }
 .jobs:hover.jobs {
-  border-left:4px solid blue;
+  border-left:4px solid rgb(26, 15, 175);
   transform:scale(1.025);
   cursor:pointer;
 }
