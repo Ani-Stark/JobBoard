@@ -40,7 +40,6 @@ function Login() {
         <form onSubmit={handleLogin}>
           <h3>Log In</h3>
           <div className="form-group">
-            <label>Email</label>
             <input
               type="email"
               className="form-control"
@@ -50,7 +49,6 @@ function Login() {
           </div>
 
           <div className="form-group">
-            <label>Password</label>
             <input
               type="password"
               className="form-control"
