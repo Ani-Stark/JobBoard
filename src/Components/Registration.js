@@ -42,15 +42,14 @@ function Registration() {
   
     return (
       <>
-   
           <div>
             {" "}
             {login ? (
               <form onSubmit={handleFormSubmit}>
+              <div className="title">
                 <h1>Register</h1>
-  
+              </div>    
                 <div className="form-group">
-                  <label>Name</label>
                   <input
                     type="text"
                     className="form-control"
@@ -61,7 +60,6 @@ function Registration() {
                 </div>
   
                 <div className="form-group">
-                  <label>Email</label>
                   <input
                     type="email"
                     className="form-control"
@@ -71,7 +69,6 @@ function Registration() {
                 </div>
   
                 <div className="form-group">
-                  <label>Password</label>
                   <input
                     type="password"
                     className="form-control"
@@ -81,7 +78,6 @@ function Registration() {
                 </div>
   
                 <div className="form-group">
-                  <label>Phone No.</label>
                   <input
                     type="Phone"
                     className="form-control"
@@ -91,12 +87,11 @@ function Registration() {
                 </div>
   
                 <div className="form-group">
-                  <label>Choose your Profession</label>
                   <Form.Control
                     as="select"
                     onChange={(event) => setProfession(event.target.value)}
                   >
-                    <option>Select</option>
+                    <option>Choose Profession</option>
                     <option>Software Developer</option>
                     <option>Front End Developer</option>
                     <option>Back End Developerr</option>
